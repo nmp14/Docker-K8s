@@ -5,7 +5,7 @@ const app = express();
 const port = 44361;
 
 app.get('/', (req, res) => {
-  res.send('<h2>Hi there!</h2>')
+  res.send('<h2 style="color: crimson">Hi there!!</h2>')
 });
 
 await connectToDatabase();
