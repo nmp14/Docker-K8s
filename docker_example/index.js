@@ -1,5 +1,5 @@
-const express = require('express');
-const connectToDatabase = require('./helpers');
+import express from 'express';
+import connectToDatabase from './helpers.js';
 
 const app = express();
 const port = 44631;

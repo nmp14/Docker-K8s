@@ -3,10 +3,10 @@ const connectToDatabase = () => {
     setTimeout(() => {
       console.log('Database successfully connected.');
       resolve();
-    }, 2000);
+    }, 1200);
   });
 
   return dummyPractice;
 }
 
-module.exports = connectToDatabase;
+export default connectToDatabase;
